@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    border-spacing: 0px;
+   
+}
+@media screen and (max-width: 480px) {
+    table{
+        border: 0;
+    }
+    table tr{
+        margin-bottom: 5px;
+        display: block;
+    }
+    table td{
+        display: block;
+        text-align: left;
+        font-size: 18px;
+        
+    }
+    tablet td:last-child{
+        border-bottom: 0;
+    }
+  }
+.info-head{
+    border: 0.1px solid grey;
+    padding: 5px;
+}
+.head{
+  
+    margin: 0.5%;
+}
+.grey{
+    background: rgb(238, 238, 238);
+}
+td{
+    border: 0.1px solid grey;
+    padding: 5px;
+    padding-right: 75px ; 
+}
+table{
+    border-collapse: collapse;
+}
+
+
